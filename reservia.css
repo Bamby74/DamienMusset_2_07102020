@@ -11,7 +11,96 @@
 
 }
 
+/*Element principaux de la page */
 body
 {
     font-family:'ralewaythin';
+    width: 80%;
+    margin: auto;
 }
+
+/*Header*/
+header
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+header img
+{
+    width: 125px;
+    height: auto;
+}
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+nav li
+{
+    margin: 10px;
+}
+
+nav a
+{
+    text-decoration: none;
+    padding-top: 2.9em;
+    color: black
+}
+
+nav a:hover
+{
+    color: #0065FC;
+    border-top: 6px solid #0065FC;
+}
+
+#inscription
+{
+    color: #0065FC;
+    font-weight: bolder;
+}
+
+/*Section*/
+#H_Ville
+{
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 1em;
+    width: 60%;
+    height: auto;
+    padding: 10px;
+}
+
+.liens_hebergement
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.carte_hebergement
+{
+    background-color: #ffffff;
+    width: 150px;
+    height: 75px;
+    border-radius: 1em;
+    margin: 1em 0;
+}
+
+.photo_hebergement
+{
+    width: 150px;
+    height: 75px;
+    object-fit: cover;
+}
+
+
+
+
+
