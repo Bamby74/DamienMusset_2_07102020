@@ -18,7 +18,10 @@
         </header>
         <h2 id="Titre_principal">Trouver votre hébergement pour des vacances de rêve</h2>
         <p id="Sous_titre">En plein centre ville ou en pleine nature</p>
-        
+        <form method="post" action="traitement.php">
+            <p><input type="text" name="localisation" placeholder="Marseille,France"/><input type="submit" value="Rechercher"></p>
+
+        </form>
         <Section>
             <div id="Hébergement">
                 <div id="H_Ville">
@@ -61,6 +64,29 @@
                         </article>
                     </div>
                     <h2>Afficher plus</h2>
+                </div>
+                <div id="les_plus_populaires">
+                    <h2>Les plus populaires</h2>
+                    <div class="lien_populaire">
+                        <article class="carte_populaire">
+                            <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hotel le soleil du matin" class="photo_populaire"/>
+                            <h3>Hôtel Le soleil du matin</h3>
+                            <p>Nuit à partir de <span class="prix">128€</span></p>
+                        </article>
+
+                        <article class="carte_populaire">
+                            <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Au coeur de l'eau" class="photo_populaire">
+                            <h3>Au coeur de l'eau</h3>
+                            <p>Nuit à partir de <span class="prix">71€</span></p>
+                        </article>
+                        
+                        <article class="carte_populaire">
+                            <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hotel Tout bleu et blanc" class="photo_populaire">
+                            <h3>Hotel Tout bleu et blanc</h3></br>
+                            <p>Nuit à partir de <span class="prix">68€</span></p>
+                            </div>    
+                        </article>
+                    </div>
                 </div>
             </div>
         </Section>
