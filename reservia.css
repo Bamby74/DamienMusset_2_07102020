@@ -21,6 +21,11 @@ body
 h2
 {
     font-size: 1em;
+    font-weight: bolder;
+}
+span
+{
+    font-weight: bold;
 }
 
 /*Header*/
@@ -73,8 +78,10 @@ nav a:hover
     display: flex;
     justify-content: space-between;
 }
+
+/*Section hébergement*/
 #H_Ville
-{
+{   
     background-color: #f2f2f2;
     display: flex;
     flex-direction: column;
@@ -134,8 +141,44 @@ article p
     background-color: #f2f2f2;
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 25%;
     height: auto;
+    border-radius: 1em;
+    padding:15px 30px 15px 30px;
+}
+
+.lien_populaire
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.carte_populaire
+{
+    display: flex;
+    background-color: #ffffff;
+    margin: 1em 0;
+    width: auto;
+    height: 100px;
+    padding: 4px 0px 4px 4px;
+    border-radius: 1em;
+    box-shadow: 0 0 0.3em rgb(114,109,109);
+}  
+
+.photo_populaire
+{
+    width: 30%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+}
+
+.info_hotel
+{
+    display: flex;
+    flex-direction: column;
 }
 
 
