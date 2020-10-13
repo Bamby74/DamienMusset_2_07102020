@@ -224,12 +224,23 @@ article p
 }
 
 /*Activités à Marseille*/
-.carte_activité
+
+.carte_activité, .carte_activité2
 {
     background-color: #ffffff;
 }
 
+.carte_activité
+{
+    width: 22%;
+    height: 300px;
+}
 
+.carte_activité2
+{
+    width: 22%;
+    height: 100px;
+}
 
 
 
