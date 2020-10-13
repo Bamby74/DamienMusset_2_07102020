@@ -19,17 +19,20 @@
         </header>
         <h2 id="Titre_principal">Trouver votre hébergement pour des vacances de rêve</h2>
         <p id="Sous_titre">En plein centre ville ou en pleine nature</p>
+        
         <form method="post" action="traitement.php">
-            <p><input type="text" name="localisation" placeholder="Marseille,France"/><input type="submit" value="Rechercher"></p>
+            <p><input type="text" name="localisation" id="localisation" placeholder="Marseille,France"/><input type="submit" value="Rechercher" id="Rechercher"></p>
 
         </form>
+
         <div id="Filtres">
-        Filtres
-        <i class="fas fa-heart"></i>Economique
-        <i class="fas fa-child"></i>Familial
-        <i class="fas fa-money-bill-wave"></i>Romantique
-        <i class="fas fa-dog"></i>Animaux
+           Filtres
+           <div class="filtre"><i class="fas fa-heart"></i>Economique </div> 
+           <div class="filtre"><i class="fas fa-child"></i>Familial</div> 
+           <div class="filtre"><i class="fas fa-money-bill-wave"></i>Romantique</div>
+           <div class="filtre"><i class="fas fa-dog"></i>Animaux autorisés</div>
         </div>
+
         <Section>
             <div id="Hébergement">
                 <div id="H_Ville">
@@ -95,11 +98,48 @@
                         <article class="carte_populaire">
                             <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hotel Tout bleu et blanc" class="photo_populaire">
                             <div class="info_hotel">
-                                <h3>Hotel Tout bleu et blanc</h3></br>
+                                <h3>Hotel Tout bleu et blanc</h3>
                                 <p>Nuit à partir de <span class="prix">68€</span></p>
                             </div>    
                         </article>
                     </div>
+                </div>
+            </div>
+        </Section>
+        
+        <Section>
+            <h2>Activités à Marseille</h2>
+            <div class="activités">
+                <article class="carte_activité">
+                    <img src="images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux port"/>
+                    <h3>Vieux port</h3>
+                </article>
+
+                <div class="double">
+                    <article class="carte_activité">
+                        <img src="images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomègues"/>
+                        <h2>Fort de Pomègues</h2>
+                    </article>
+                    <articld>
+                        <img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="iles du frioul"/>
+                        <h3>Iles du frioul</h3>
+                    </articld>
+                </div>
+                
+                <article class="carte_activité">
+                    <img src="images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc National des calanques"/>
+                    <h3>Parc National des Calanques</h3>
+                </article>
+
+                <div class="double">
+                    <aricle class="carte_activité">
+                        <img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre-Dame-de-la-Garde"/>
+                        <h3>Notre-dame-de-la-Garde</h3>        
+                    </aricle>
+                    <article class="carte_activité">
+                        <img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Parc Longchamp"/>
+                        <h3>Parc longchamp</h3>
+                    </article>
                 </div>
             </div>
         </Section>

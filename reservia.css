@@ -15,7 +15,7 @@
 body
 {
     font-family:'ralewaythin';
-    width: 80%;
+    width: 90%;
     margin: auto;
 }
 h2
@@ -27,7 +27,52 @@ span
 {
     font-weight: bold;
 }
+#localisation
+{
+    height: 25px;
+    border-color: 1px solid #f2f2f2;
+    font-weight: 900;
+    color: black;
+}
+::placeholder
+{
+    font-family: 'ralewaythin';
+}
+#Rechercher
+{
+    background-color: #0065FC;
+    color: #ffffff;
+    font-family: 'ralewaythin';
+    font-weight: 900;
+    font-size: 0.7em;
+    border: none;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+    height: 30px;
+}
+#Filtres
+{
+    display: flex;
+    font-weight: bold;
+    margin:10px;
+    
+}
 
+i
+{
+    color: #0065FC;
+    background-color: #DEEBFF;
+    border-radius: 50%;
+    margin: 10px 10px;
+        
+}
+.filtre
+{
+    border: 2px solid #f2f2f2;
+    border-right: 50%;
+    border-left: 50%;
+    text-align: center;
+}
 /*Header*/
 header
 {
@@ -50,7 +95,7 @@ nav ul
 
 nav li
 {
-    margin: 10px;
+    margin: 11px;
 }
 
 nav a
