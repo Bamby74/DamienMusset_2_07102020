@@ -69,9 +69,6 @@ i
 .filtre
 {
     border: 2px solid #f2f2f2;
-    border-right: 50%;
-    border-left: 50%;
-    text-align: center;
 }
 /*Header*/
 header
@@ -224,6 +221,12 @@ article p
 {
     display: flex;
     flex-direction: column;
+}
+
+/*Activités à Marseille*/
+.carte_activité
+{
+    background-color: #ffffff;
 }
 
 
