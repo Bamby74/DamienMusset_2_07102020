@@ -117,8 +117,7 @@ nav a:hover
 }
 
 /*Titres*/
-#Titre
-_principal, #Sous_titre
+#Titre_principal, #Sous_titre
 {
     margin-left: 5em;
     margin-right: 5em;
@@ -305,6 +304,7 @@ article p
 #footer
 {
     display: flex;
+    justify-content: left;
     background-color: #f2f2f2;
     margin-top: 5em;
     padding-top: 2em;
@@ -312,11 +312,13 @@ article p
 #A_propos
 {
     margin-left: 5em;
+    width: 15%;
 }
 
 #Nos_Hébergements, #Assistance
 {
     margin-left: 15em;
+    width: 15%;
 }
 footer h3
 {
