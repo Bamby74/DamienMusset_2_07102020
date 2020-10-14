@@ -29,7 +29,7 @@ span
 }
 #localisation
 {
-    height: 25px;
+    height: 2em;
     border-color: 1px solid #f2f2f2;
     font-weight: 900;
     color: black;
@@ -48,7 +48,7 @@ span
     border: none;
     border-top-right-radius: 1em;
     border-bottom-right-radius: 1em;
-    height: 30px;
+    height: 2.7em;
 }
 #Filtres
 {
@@ -58,7 +58,7 @@ span
     
 }
 
-i
+#Filtres i
 {
     color: #0065FC;
     background-color: #DEEBFF;
@@ -70,6 +70,24 @@ i
 {
     border: 2px solid #f2f2f2;
 }
+#search_bar
+{
+   margin-left: 5em; 
+   display: flex;
+   align-items: baseline;
+   justify-items: center;
+}
+#search_bar i
+{
+    background-color: #f2f2f2;
+    border-top-left-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+
+}
+
 /*Header*/
 header
 {
@@ -235,7 +253,7 @@ article p
 
 /*Activités à Marseille*/
 
-#Activités_Marseille
+#Activités
 {
     margin-top: 5em;
     margin-left: 5em;
@@ -308,6 +326,7 @@ article p
     background-color: #f2f2f2;
     margin-top: 5em;
     padding-top: 2em;
+    padding-bottom: 2em;
 }
 #A_propos
 {
