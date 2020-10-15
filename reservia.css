@@ -53,9 +53,14 @@ span
 #Filtres
 {
     display: flex;
+    align-items: center;
     font-weight: bold;
-    margin:10px;
-    
+    margin:5em; 
+}
+#Filtres p
+{
+    align-items: center;
+    font-size: 0.9em;
 }
 
 #Filtres i
@@ -63,19 +68,37 @@ span
     color: #0065FC;
     background-color: #DEEBFF;
     border-radius: 50%;
-    margin: 10px 10px;
-        
+    width: 40px;
+    height: 40px;    
+}
+::before
+{
+    align-items: center;
+    position: relative;
+    left : 12px; top : 10px
 }
 .filtre
 {
+    display: flex;
     border: 2px solid #f2f2f2;
+    margin-left: 30px;
+    align-items: center;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+    height: 38px;
+}
+.filtre p
+{
+    padding-left: 10px;
+    padding-right: 10px;
 }
 #search_bar
 {
    margin-left: 5em; 
    display: flex;
    align-items: baseline;
-   justify-items: center;
 }
 #search_bar i
 {
@@ -175,7 +198,7 @@ nav a:hover
     background-color: #ffffff;
     border-radius: 1em;
     margin: 1em 0;
-    width: 29%;
+    width: 250px;
     min-width: 150px;
     height: 175px;
     padding: 4px 4px 0 4px;
