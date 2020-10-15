@@ -55,7 +55,9 @@ span
     display: flex;
     align-items: center;
     font-weight: bold;
-    margin:5em; 
+    margin-left:5em; 
+    margin-bottom: 2em;
+    margin-top: 2em;
 }
 #Filtres p
 {
@@ -87,12 +89,29 @@ span
     border-top-right-radius: 2em;
     border-bottom-left-radius: 2em;
     border-bottom-right-radius: 2em;
-    height: 38px;
+    height: 37px;
 }
 .filtre p
 {
     padding-left: 10px;
     padding-right: 10px;
+}
+.filtre:hover
+{
+    background-color: #0065FC;
+    color: #ffffff;
+}
+#BoutonFiltre
+{
+    display: flex;
+}
+#BoutonFiltre:hover i
+{
+    background-color: #ffffff;
+}
+i
+{
+    align-items: center;
 }
 #search_bar
 {
@@ -108,8 +127,9 @@ span
     width: 30px;
     height: 30px;
     text-align: center;
-
 }
+
+
 
 /*Header*/
 header
