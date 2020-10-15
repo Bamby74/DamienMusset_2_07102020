@@ -29,18 +29,21 @@ span
 }
 #localisation
 {
-    height: 2em;
-    border-color: 1px solid #f2f2f2;
-    font-weight: 900;
+    height: 2.35em;
+    border: 2px solid #f2f2f2;
+    font-family: 'ralewaythin';
+    font-weight: bold;
     color: black;
+    padding-left: 10px; 
 }
 ::placeholder
 {
     font-family: 'ralewaythin';
+    font-weight: 900;
 }
 #Rechercher
 {
-    background-color: #0065FC;
+    background-color: #0065FC;  
     color: #ffffff;
     font-family: 'ralewaythin';
     font-weight: 900;
@@ -48,7 +51,7 @@ span
     border: none;
     border-top-right-radius: 1em;
     border-bottom-right-radius: 1em;
-    height: 2.7em;
+    height: 3.3em;
 }
 #Filtres
 {
@@ -70,14 +73,14 @@ span
     color: #0065FC;
     background-color: #DEEBFF;
     border-radius: 50%;
-    width: 40px;
-    height: 40px;    
+    width: 41px;
+    height: 41px;    
 }
-::before
+.filtre ::before
 {
     align-items: center;
     position: relative;
-    left : 12px; top : 10px
+    left : 13px; top : 11px
 }
 .filtre
 {
@@ -114,20 +117,31 @@ i
     align-items: center;
 }
 #search_bar
-{
+{ 
    margin-left: 5em; 
    display: flex;
-   align-items: baseline;
+   align-items: center;
 }
 #search_bar i
 {
     background-color: #f2f2f2;
     border-top-left-radius: 0.5em;
     border-bottom-left-radius: 0.5em;
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 2.3em;
     text-align: center;
 }
+form
+{
+    display: flex;
+}
+form ::before
+{
+   position: relative;
+   top: 10px;
+}
+
+
 
 
 
