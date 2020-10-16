@@ -27,6 +27,64 @@ span
 {
     font-weight: bold;
 }
+
+/*Header*/
+header
+{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+header img
+{
+    width: 125px;
+    height: auto;
+}
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+}
+
+nav li
+{
+    margin: 11px;
+}
+nav a
+{
+    text-decoration: none;
+}
+
+.LienNav
+{
+    text-decoration: none;
+    padding-top: 1.6em;
+    color: black;   
+}
+
+.LienNav:hover
+{
+    color: #0065FC;
+    border-top: 6px solid #0065FC; 
+}
+
+#inscription
+{
+    color: #0065FC;
+    font-weight: bolder;
+}
+
+/*Titres*/
+#Titre-principal, #Sous-titre
+{
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+/*Search Bar*/
 #localisation
 {
     height: 2.35em;
@@ -41,6 +99,30 @@ span
     font-family: 'ralewaythin';
     font-weight: 900;
 }
+#search-bar
+{ 
+   margin-left: 5em; 
+   display: flex;
+   align-items: center;
+}
+#search-bar i
+{
+    background-color: #f2f2f2;
+    border-top-left-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+    width: 35px;
+    height: 2.3em;
+    text-align: center;
+}
+form
+{
+    display: flex;
+}
+form ::before
+{
+   position: relative;
+   top: 10px;
+}
 #Rechercher
 {
     background-color: #0065FC;  
@@ -53,6 +135,8 @@ span
     border-bottom-right-radius: 1em;
     height: 3.3em;
 }
+
+/*Filtres*/
 #Filtres
 {
     display: flex;
@@ -116,86 +200,7 @@ i
 {
     align-items: center;
 }
-#search-bar
-{ 
-   margin-left: 5em; 
-   display: flex;
-   align-items: center;
-}
-#search-bar i
-{
-    background-color: #f2f2f2;
-    border-top-left-radius: 0.5em;
-    border-bottom-left-radius: 0.5em;
-    width: 35px;
-    height: 2.3em;
-    text-align: center;
-}
-form
-{
-    display: flex;
-}
-form ::before
-{
-   position: relative;
-   top: 10px;
-}
 
-/*Header*/
-header
-{
-    display: flex;
-    justify-content: space-between;
-    margin-left: 5em;
-    margin-right: 5em;
-}
-
-header img
-{
-    width: 125px;
-    height: auto;
-}
-nav ul
-{
-    list-style-type: none;
-    display: flex;
-    width: 100%;
-}
-
-nav li
-{
-    margin: 11px;
-}
-nav a
-{
-    text-decoration: none;
-}
-
-.LienNav
-{
-    text-decoration: none;
-    padding-top: 1.6em;
-    color: black;   
-}
-
-.LienNav:hover
-{
-    color: #0065FC;
-    border-top: 6px solid #0065FC; 
-}
-
-#inscription
-{
-    color: #0065FC;
-    font-weight: bolder;
-}
-
-/*Titres*/
-#Titre-principal, #Sous-titre
-{
-    margin-left: 5em;
-    margin-right: 5em;
-}
 /*Section*/
 #Hébergement
 {
