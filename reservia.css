@@ -326,6 +326,7 @@ article p
 {
     display: flex;
     flex-direction: column;
+    margin-top: 5px;
 }
 
 /*Activités à Marseille*/
@@ -425,7 +426,7 @@ footer p
     line-height: 1.5em;
 }
  
-@media screen and (max-device-width:480px)
+@media screen and (max-device-width:1200px)
 {
     body
     {
@@ -453,6 +454,18 @@ footer p
         width: 100%;
         margin-right: 0px;
         border-radius: 0px;
+        padding: 0px 0px;
+    }
+    .carte-populaire, .carte-hebergement
+    {
+        margin-left: 5em;
+        margin-right: 5em;
+        height: 200px;
+    }
+    #titre-populaire
+    {
+        margin-left: 5em;
+        margin-right: 5em;
     }
     #H-Ville
     {
@@ -467,4 +480,15 @@ footer p
     {
         width: 100%;
     }
+    #Activités
+    {
+        width: 100%;
+    }
+    .activités
+    {
+        flex-direction: column;
+        width: 100%;
+        margin-left: 5em;
+        margin-right: 5em;
+    }    
 }
