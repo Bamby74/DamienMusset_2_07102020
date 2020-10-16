@@ -201,6 +201,18 @@ i
     align-items: center;
 }
 
+/*Ligne information*/
+#information
+{
+    margin-left: 5em;
+    margin-bottom: 2em; 
+}
+#information i
+{
+    color: #0065FC ;
+    background-color: white;
+}
+
 /*Section*/
 #Hébergement
 {
