@@ -33,6 +33,7 @@ span
     margin-right: 5em;
 }
 
+
 /*Header*/
 header
 {
@@ -269,6 +270,27 @@ article p
     margin-left: 10px;
     font-size: 0.8em;
 }
+.info-hotel-hebergement
+{
+    line-height: 12px;
+}
+
+.star-hebergement
+{
+    display: flex;
+    margin-left: 10px;
+    font-size: small;
+}
+.star-hebergement i, .star-populaire i
+{
+    color: #0065FC;
+}
+#grey
+{
+    color: #f2f2f2;
+}
+
+
 
 /*Section Populaire*/
 #les-plus-populaires
@@ -319,8 +341,17 @@ article p
 {
     display: flex;
     flex-direction: column;
-    margin-top: 5px;
+    margin-top: 3px;
+    line-height: 12px;
 }
+.star-populaire
+{
+    margin-left: 10px;
+    font-size: small;
+    position: relative;
+    top: 30px;
+}
+
 
 /*Activités à Marseille*/
 
@@ -352,12 +383,16 @@ article p
 
 .carte-activité
 {
+    display: flex;
+    flex-direction: column;
     width: 22%;
     height: 450px;
 }
 
 .carte-activité2
 {
+    display: flex;
+    flex-direction: column;
     width: 100%%;
     height: 200px;
 }
@@ -419,6 +454,10 @@ footer p
  
 @media screen and (max-width:1500px)
 {
+    #bloc-page
+    {
+        width: auto;
+    }
     .carte-hebergement
     {
         width: 200px;
@@ -448,17 +487,19 @@ footer p
     }
     #H-Ville
     {
-        width: 100%;
+        width: 45%;
         margin-right: 5em;
     }
     .carte-hebergement
     {
         width: 100%;
+        height: 125px;
         display: flex;
+        padding-bottom: 4px;
     }
     #les-plus-populaires
     {
-        width: 100%;
+        width: 45%;
     }
     #Activités
     {
@@ -473,6 +514,105 @@ footer p
     #Nos-Hébergements, #Assistance
     {
         margin-left: 10em;
-    }   
+    } 
+    .info-hotel-hebergement
+    {
+        display: flex;
+        flex-direction: column;
+    } 
+    .photo-hebergement
+    {
+        width: 50%;
+        height: 100%;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 1em;
+    }
+    .star-hebergement
+    {
+        position: relative;
+        top: 60px;
+    }
+}
 
+@media screen and (max-device-width:420px)
+{
+    body
+    {
+        width: 100%;
+        height: max-content;
+    }
+    #bloc-page
+    {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #Hébergement
+    {
+        flex-direction: column-reverse;
+    }   
+    #les-plus-populaires
+    {
+        width: 100%;
+        border-radius: 0;
+    }
+    .carte-populaire
+    {
+        height: 175px;
+    }
+    #H-Ville
+    {
+        width: 100%;
+        background-color: #ffffff;
+        border-radius: 0;
+    }
+    .carte-hebergement
+    {
+        height: 225px;
+        flex-direction: column;
+    }
+    .liens-hebergement
+    {
+        flex-direction: column;
+    }
+    .info-hotel-hebergement
+    {
+        flex-direction: column;
+    }
+    .photo-hebergement
+    {
+        width: 100%;
+        height: 50%;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 1em;
+    }
+    .activités
+    {
+        flex-direction: column;
+    }
+    .carte-activité, .carte-activité2
+    {
+        height: 225px;
+        width: 100%;
+    }
+    .double
+    {
+        width: 100%;
+    }
+    #footer
+    {
+        flex-direction: column;
+    }
+    #A-propos, #Nos-Hébergements, #Assistance
+    {
+        margin: 0;
+        padding-left: 30px;
+    }
+    #Filtres
+    {
+        display: block;
+    }
+    #BoutonFiltre
+    {
+
+    }
 }
