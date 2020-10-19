@@ -622,12 +622,14 @@ footer p
     }
     #footer
     {
-        display: block
+        display: block;
+        width: 120%;
     }
     #A-propos, #Nos-Hébergements, #Assistance
     {
-        margin: 0;
+        margin:0;
         padding-left: 30px;
+        width: 100%;
     }
     #Filtres
     {
