@@ -273,6 +273,10 @@ article p
 .info-hotel-hebergement
 {
     line-height: 12px;
+    display: flexbox;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 3px;
 }
 
 .star-hebergement
@@ -341,15 +345,16 @@ article p
 {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     margin-top: 3px;
+    margin-bottom: 3px;
     line-height: 12px;
 }
+
 .star-populaire
 {
     margin-left: 10px;
     font-size: small;
-    position: relative;
-    top: 30px;
 }
 
 
@@ -470,16 +475,9 @@ footer p
         width: 250px;
     }
 }
-@media screen and ( max-width: 1070px)
+@media screen and ( max-width: 1170px)
 {
     
-    .carte-hebergement
-    {
-        width: 250px;
-    }
-}
-@media screen and (max-width: 1060px)
-{
     #bloc-page
     {
         margin-left: 2em;
@@ -492,7 +490,7 @@ footer p
     }
     .carte-hebergement
     {
-        width: 100%;
+        width: 400px;
         height: 125px;
         display: flex;
         padding-bottom: 4px;
@@ -519,6 +517,7 @@ footer p
     {
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
     } 
     .photo-hebergement
     {
@@ -527,18 +526,11 @@ footer p
         border-top-right-radius: 0;
         border-bottom-left-radius: 1em;
     }
-    .star-hebergement
-    {
-        position: relative;
-        top: 60px;
-    }
-}
-
-@media screen and (max-device-width:420px)
+}   
+@media screen and (max-device-width: 900px)
 {
     body
     {
-        width: 100%;
         height: max-content;
     }
     #bloc-page
@@ -611,8 +603,5 @@ footer p
     {
         display: block;
     }
-    #BoutonFiltre
-    {
-
-    }
+    
 }
