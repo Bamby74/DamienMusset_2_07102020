@@ -159,9 +159,19 @@ form ::before
 }
 .filtre ::before
 {
-    align-items: center;
+    font-size: medium;    
     position: relative;
-    left : 13px; top : 11px
+    left : 12px; top : 12px
+}
+.fa-money-bill-wave::before
+{
+    position: relative;
+    left: 10px; top: 12px
+}
+.fa-child::before
+{
+    position: relative;
+    left: 14px;
 }
 .filtre
 {
@@ -244,7 +254,7 @@ i
     width: 250px;
     min-width: 150px;
     height: 175px;
-    padding: 4px 4px 0 4px;
+    padding: 4px 4px 4px 4px;
     box-shadow: 0 0 0.3em rgb(114,109,109);
 }
 
@@ -273,10 +283,6 @@ article p
 .info-hotel-hebergement
 {
     line-height: 12px;
-    display: flexbox;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-bottom: 3px;
 }
 
 .star-hebergement
@@ -327,7 +333,7 @@ article p
     margin: 1em 0;
     width: auto;
     height: 100px;
-    padding: 4px 0px 4px 4px;
+    padding: 4px 4px 4px 4px;
     border-radius: 1em;
     box-shadow: 0 0 0.3em rgba(114,109,109,0.2);
 }  
@@ -468,14 +474,14 @@ footer p
         width: 200px;
     }
 }
-@media screen and (max-width: 1300px)
+@media screen and (max-device-width: 1300px)
 {
     .carte-hebergement
     {
         width: 250px;
     }
 }
-@media screen and ( max-width: 1170px)
+@media screen and ( max-device-width: 1170px)
 {
     
     #bloc-page
@@ -527,7 +533,7 @@ footer p
         border-bottom-left-radius: 1em;
     }
 }   
-@media screen and (max-device-width: 900px)
+@media screen and (max-device-width: 1080px)
 {
     body
     {
