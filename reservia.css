@@ -224,11 +224,18 @@ i
 #information
 {
     margin-bottom: 2em; 
+    display: flex;
+    width: 100%;
+    align-items: baseline;
 }
 #information i
 {
     color: #0065FC ;
     background-color: white;
+}
+#information p
+{
+    margin-left: 5px;
 }
 
 /*Section*/
@@ -545,6 +552,10 @@ footer p
 }   
 @media all and (max-device-width: 1080px)
 {
+    body 
+    {
+        display: block;
+    }
     #bloc-page
     {
         margin-left: 0;
