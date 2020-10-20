@@ -154,8 +154,10 @@ form ::before
     color: #0065FC;
     background-color: #DEEBFF;
     border-radius: 50%;
-    width: 41px;
-    height: 41px;    
+    width: 43px;
+    height: 43px;
+    position: relative;
+    right: 2px;    
 }
 .filtre ::before
 {
@@ -166,12 +168,17 @@ form ::before
 .fa-money-bill-wave::before
 {
     position: relative;
-    left: 10px; top: 12px
+    left: 11px; top: 13px
 }
 .fa-child::before
 {
     position: relative;
-    left: 14px;
+    left: 15px; top: 13px
+}
+.fa-heart::before
+{
+    position: relative;
+    left: 13px;top: 13px
 }
 .filtre
 {
