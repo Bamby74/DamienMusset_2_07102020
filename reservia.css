@@ -103,7 +103,7 @@ nav a
    display: flex;
    align-items: center;
 }
-#search-bar i
+.fa-map-marker-alt
 {
     background-color: #f2f2f2;
     border-top-left-radius: 0.5em;
@@ -133,6 +133,10 @@ form ::before
     border-bottom-right-radius: 1em;
     height: 3.3em;
 }
+.Logo-search
+{
+    display: none;
+}
 
 /*Filtres*/
 #Filtres
@@ -147,6 +151,7 @@ form ::before
 {
     align-items: center;    
     font-size: 0.9em;
+    font-weight:bolder;
 }
 
 #Filtres i
@@ -184,7 +189,7 @@ form ::before
 {
     display: flex;
     border: 2px solid #f2f2f2;
-    margin-left: 30px;
+    margin-left: 25px;
     align-items: center;
     border-top-left-radius: 2em;
     border-top-right-radius: 2em;
@@ -464,6 +469,7 @@ article p
 footer h3
 {
     font-weight: bold;
+    margin-bottom: 5px;
 }
 footer p
 {
@@ -518,10 +524,7 @@ footer p
         margin-bottom: 1em;
         padding: 0px 30px 0px 30px;
     }
-    #footer
-    {
-        width: 100%;
-    } 
+    
     #Nos-Hébergements, #Assistance
     {
         margin-left: 10em;
@@ -558,8 +561,26 @@ footer p
     }
     #search-bar
     {
-        width: 100%;
+        justify-content: center;
+    }
+    .Logo-search
+    {
+        display: inline-block;
+    }
+    .fa-search
+    {
+        color: #ffffff;
+        background-color: #0065FC;
+        width: 35px;
+        height: 35px;
+        border-radius: 0.5em;
+        position: relative;
+        right: 5px; 
         text-align: center;
+    }
+    #Rechercher
+    {
+        display: none;
     }
     #Hébergement
     {
@@ -630,7 +651,6 @@ footer p
     #footer
     {
         display: block;
-        width: 100%;
     }
     #A-propos, #Nos-Hébergements, #Assistance
     {
