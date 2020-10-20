@@ -285,8 +285,12 @@ i
     border-top-left-radius: 1em;
     border-top-right-radius: 1em;
 }
-
-article h3
+#Activités a, #Hébergement a
+{
+    text-decoration: none;
+    color: black;
+}
+a h3
 {
     margin-left: 10px;
     margin-top: 5px;
@@ -294,7 +298,7 @@ article h3
     font-size: 0.9em;
 }
 
-article p
+a p
 {
     margin-left: 10px;
     font-size: 0.8em;
