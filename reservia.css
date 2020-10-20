@@ -155,9 +155,13 @@ form ::before
     background-color: #DEEBFF;
     border-radius: 50%;
     width: 43px;
+<<<<<<< HEAD
     height: 43px;
     position: relative;
     right: 2px;    
+=======
+    height: 43px;    
+>>>>>>> ca3adb41f15a8c50558f621c25171e5f316a39df
 }
 .filtre ::before
 {
