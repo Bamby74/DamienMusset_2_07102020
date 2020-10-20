@@ -168,12 +168,17 @@ form ::before
 .fa-money-bill-wave::before
 {
     position: relative;
-    left: 10px; top: 12px
+    left: 11px; top: 13px
 }
 .fa-child::before
 {
     position: relative;
     left: 14px;
+}
+.fa-heart::before
+{
+    position: relative;
+    left: 14px; top: 13px;
 }
 .filtre
 {
