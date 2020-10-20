@@ -154,22 +154,10 @@ form ::before
     color: #0065FC;
     background-color: #DEEBFF;
     border-radius: 50%;
-<<<<<<< HEAD
     width: 43px;
-<<<<<<< HEAD
     height: 43px;
     position: relative;
     right: 2px;    
-=======
-    height: 43px;    
->>>>>>> ca3adb41f15a8c50558f621c25171e5f316a39df
-<<<<<<< HEAD
-=======
-=======
-    width: 41px;
-    height: 41px;    
->>>>>>> parent of ca3adb4... éajustement icone filtre
->>>>>>> 886da92... Ajustement filtres
 }
 .filtre ::before
 {
@@ -418,7 +406,7 @@ article p
 {
     display: flex;
     flex-direction: column;
-    width: 100%%;
+    width: 100%;
     height: 200px;
 }
 
