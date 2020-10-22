@@ -504,54 +504,7 @@ footer p
         width: 250px;
     }
 }
-@media all and ( max-device-width: 1170px)
-{
-    
-    #bloc-page
-    {
-        margin-left: 2em;
-        margin-right: 2em;
-    }
-    #H-Ville
-    {
-        width: 45%;
-        margin-right: 5em;
-    }
-    .carte-hebergement
-    {
-        width: 100%
-        height: 125px;
-        display: flex;
-        padding-bottom: 4px;
-    }
-    #les-plus-populaires
-    {
-        width: 45%;
-    }
-    #Activités
-    {
-        margin-top: 1em;
-        margin-bottom: 1em;
-        padding: 0px 30px 0px 30px;
-    }
-    
-    #Nos-Hébergements, #Assistance
-    {
-        margin-left: 10em;
-    } 
-    .info-hotel-hebergement
-    {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    } 
-    .photo-hebergement
-    {
-        width: 50%;
-        height: 100%;
-        border-top-right-radius: 0;
-        border-bottom-left-radius: 1em;
-    }
+
 }   
 @media all and (max-width: 1080px)
 {
