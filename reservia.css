@@ -25,7 +25,7 @@ h2
 }
 span
 {
-    font-weight: bold;
+    font-weight: bolder;
 }
 #bloc-page
 {
@@ -38,33 +38,51 @@ header
 {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#logo
+{
+    width: 500px;
+
 }
 header img
 {
-    width: 125px;
+    width: 100px;
     height: auto;
+    padding-top: 1.9em;
 }
-nav ul
+
+/*nav
 {
-    list-style-type: none;
+    position: relative;
+    bottom: 7px;
     display: flex;
-    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+}*/
+#bouton-nav
+{
+    display: flex;
+    width: 300px;
 }
 
-nav li
-{
-    margin: 11px;
-}
-nav a
-{
-    text-decoration: none;
-}
 
-.LienNav
+.LienNav, header span
 {
     text-decoration: none;
-    padding-top: 1.6em;
-    color: black;   
+    color: black;
+    padding-top: 2em;
+    width: 300px;   
+    text-align: center;
+    position: relative;
+    bottom: 0.8em;
+}
+header span
+{
+    margin-right: 0px;
 }
 
 .LienNav:hover
@@ -516,22 +534,62 @@ footer p
         margin-left: 0;
         margin-right: 0;
     }
-    header, #Titre-principal, #Sous-titre, #search-bar, #Filtres p, #information
+    #Titre-principal, #Sous-titre, #search-bar, #Filtres p, #information
     {
         margin-left: 30px;
         margin-right: 30px;
     }
-    header
+    #logo, #inscription
     {
-        display: block;
         width: auto;
+        padding-top: 1em;
+        margin-left: 30px;
+        margin-right: 30px;
     }
-    nav ul 
+    header img 
     {
-        justify-content: right  ;
-        flex-wrap: wrap-reverse;
-        width: auto;
-    } 
+        padding-top: 0;
+    }
+    #bouton-nav 
+    {
+       display: contents;
+    }
+    #bouton-nav>header span 
+    {
+        order: 1;
+    }
+    #bouton-nav>#LienNav1
+    {
+        order:2;
+    }
+    #bouton-nav>#LienNav2
+    {
+        order:3;
+    }
+    #logo,.LienNav,header span
+    {
+        width: 50%;
+    }
+    #inscription
+    {
+        text-align: right;
+        position: unset;
+    }
+
+    .LienNav:hover
+    {
+    color: #0065FC;
+    font-weight: bold;
+    border-bottom: 3px solid #0065FC; 
+    border-top: none;
+    }
+    #LienNav1,#LienNav2
+    {
+        height: 30px;
+        border-bottom: 2px solid #f2f2f2;
+    }
+   
+    
     #search-bar
     {
         justify-content: center;
@@ -548,7 +606,7 @@ footer p
     .fa-map-market-alt
     {
         width: 20%;
-    }
+    }   
     #localisation
     {
         width: 90%;
@@ -571,11 +629,6 @@ footer p
     #Filtres
     {
         width: auto;
-    }
-    #Filtres p
-    {
-        margin-left: 10px;
-        margin-right: 10px;
     }
     #information
     {
