@@ -228,7 +228,7 @@ form ::before
 {
     display: flex;
 }
-#BoutonFiltre:hover i
+.filtre:hover i
 {
     background-color: #ffffff;
 }
@@ -575,8 +575,7 @@ footer p
         text-align: right;
         position: unset;
     }
-
-    .LienNav:hover
+    #LienNav1:hover,#LienNav2:hover
     {
     color: #0065FC;
     font-weight: bold;
@@ -589,7 +588,6 @@ footer p
         border-bottom: 2px solid #f2f2f2;
     }
    
-    
     #search-bar
     {
         justify-content: center;
