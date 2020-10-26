@@ -40,6 +40,7 @@ header
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
+    padding-top: 0.8em;
 }
 #logo
 {
@@ -50,19 +51,8 @@ header img
 {
     width: 100px;
     height: auto;
-    padding-top: 1.9em;
 }
 
-/*nav
-{
-    position: relative;
-    bottom: 7px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    width: 400px;
-}*/
 #bouton-nav
 {
     display: flex;
@@ -70,7 +60,7 @@ header img
 }
 
 
-.LienNav, header span
+.LienNav,#inscription
 {
     text-decoration: none;
     color: black;
@@ -88,7 +78,7 @@ header span
 .LienNav:hover
 {
     color: #0065FC;
-    border-top: 6px solid #0065FC; 
+    border-top: 5px solid #0065FC; 
 }
 
 #inscription
@@ -97,10 +87,17 @@ header span
     font-weight: bolder;
 }
 
-/*Titres*/
-
 
 /*Search Bar*/
+/*#search-bar
+{  
+   display: flex;
+   align-items: center;
+}*/
+form
+{
+    display: flex;
+}
 #localisation
 {
     height: 2.35em;
@@ -115,11 +112,7 @@ header span
     font-family: 'ralewaythin';
     font-weight: 900;
 }
-#search-bar
-{  
-   display: flex;
-   align-items: center;
-}
+
 .fa-map-marker-alt
 {
     background-color: #f2f2f2;
@@ -129,10 +122,7 @@ header span
     height: 2.3em;
     text-align: center;
 }
-form
-{
-    display: flex;
-}
+
 form ::before
 {
    position: relative;
@@ -161,8 +151,8 @@ form ::before
     display: flex;
     align-items: center;
     font-weight: bold;
-    margin-bottom: 2em;
-    margin-top: 2em;
+    margin-bottom: 1.5em;
+    margin-top: 1.5em;
 }
 #Filtres p
 {
@@ -240,7 +230,7 @@ i
 /*Ligne information*/
 #information
 {
-    margin-bottom: 2em; 
+    margin-bottom: 1.5em; 
     display: flex;
     width: 100%;
     align-items: baseline;
@@ -534,7 +524,7 @@ footer p
         margin-left: 0;
         margin-right: 0;
     }
-    #Titre-principal, #Sous-titre, #search-bar, #titre-filtre, #information
+    #Titre-principal, #Sous-titre, form, #titre-filtre, #information
     {
         margin-left: 30px;
         margin-right: 30px;
@@ -588,15 +578,15 @@ footer p
         border-bottom: 2px solid #f2f2f2;
     }
    
-    #search-bar
+    form
     {
         justify-content: center;
         width: auto;
     }
-    form 
+    /*form 
     {
         width: 100%;
-    }
+    }*/
     .Logo-search
     {
         display: inline-block;
