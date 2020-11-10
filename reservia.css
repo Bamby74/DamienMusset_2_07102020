@@ -1,31 +1,19 @@
-@font-face {
-    font-family: 'ralewaythin';
-    src: url('font/raleway-variablefont_wght-webfont.eot');
-    src: url('font/raleway-variablefont_wght-webfont.eot?#iefix') format('embedded-opentype'),
-         url('font/raleway-variablefont_wght-webfont.woff2') format('woff2'),
-         url('font/raleway-variablefont_wght-webfont.woff') format('woff'),
-         url('font/raleway-variablefont_wght-webfont.ttf') format('truetype'),
-         url('font/raleway-variablefont_wght-webfont.svg#ralewaythin') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
 
 /*Element principaux de la page */
 body
 {
-    font-family:'ralewaythin';
+    font-family:'Raleway';
     width: 100%;
     margin: auto;
 }
 h2
 {
     font-size: 1em;
-    font-weight: bolder;
+    font-weight: 800;
 }
 span
 {
-    font-weight: bolder;
+    font-weight: 800;
 }
 #bloc-page
 {
@@ -56,7 +44,7 @@ header img
 #bouton-nav
 {
     display: flex;
-    width: 300px;
+    width: 350px;
 }
 
 
@@ -84,16 +72,8 @@ header span
 #inscription
 {
     color: #0065FC;
-    font-weight: bolder;
+    font-weight: 800;
 }
-
-
-/*Search Bar*/
-/*#search-bar
-{  
-   display: flex;
-   align-items: center;
-}*/
 form
 {
     display: flex;
@@ -102,14 +82,14 @@ form
 {
     height: 2.35em;
     border: 2px solid #f2f2f2;
-    font-family: 'ralewaythin';
-    font-weight: bold;
+    font-family: 'Raleway';
+    font-weight: 800;
     color: black;
     padding-left: 10px; 
 }
 ::placeholder
 {
-    font-family: 'ralewaythin';
+    font-family: 'Raleway';
     font-weight: 900;
 }
 
@@ -132,13 +112,14 @@ form ::before
 {
     background-color: #0065FC;  
     color: #ffffff;
-    font-family: 'ralewaythin';
-    font-weight: 900;
+    font-family: 'Raleway';
+    font-weight: 400;
     font-size: 0.7em;
     border: none;
     border-top-right-radius: 1em;
     border-bottom-right-radius: 1em;
     height: 3.3em;
+    width: 95px;
 }
 .Logo-search
 {
@@ -150,7 +131,7 @@ form ::before
 {
     display: flex;
     align-items: center;
-    font-weight: bold;
+    font-weight: 800;
     margin-bottom: 1.5em;
     margin-top: 1.5em;
 }
@@ -158,7 +139,7 @@ form ::before
 {
     align-items: center;    
     font-size: 0.9em;
-    font-weight:bolder;
+    font-weight:800;
 }
 
 #Filtres i
@@ -280,7 +261,7 @@ i
     width: 250px;
     min-width: 150px;
     height: 175px;
-    padding: 4px 4px 4px 4px;
+    padding: 4px 4px 8px 4px;
     box-shadow: 0 0 0.3em rgb(114,109,109);
 }
 
@@ -313,6 +294,9 @@ a p
 .info-hotel-hebergement
 {
     line-height: 12px;
+}
+.text-hotel-hebergement p{
+    font-weight: 200;
 }
 
 .star-hebergement
@@ -363,7 +347,7 @@ a p
     margin: 1em 0;
     width: auto;
     height: 100px;
-    padding: 4px 4px 4px 4px;
+    padding: 4px 4px 8px 4px;
     border-radius: 1em;
     box-shadow: 0 0 0.3em rgba(114,109,109,0.2);
 }  
@@ -381,7 +365,7 @@ a p
 {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-between; 
     margin-top: 3px;
     margin-bottom: 3px;
     line-height: 12px;
@@ -398,7 +382,8 @@ a p
 
 #Activités
 {
-    margin-top: 5em;
+    margin-top: 2em;
+    padding-top:15px;
 }
 .activités
 {
@@ -461,6 +446,7 @@ a p
     margin-top: 9px;
     margin-bottom: -7px;
     font-size: 0.9em; 
+    height: auto;
 }
 
 /*Footer*/
@@ -486,7 +472,7 @@ a p
 }
 footer h3
 {
-    font-weight: bold;
+    font-weight: 800;
     margin-bottom: 5px;
 }
 footer p
@@ -529,11 +515,13 @@ footer p
         margin-left: 30px;
         margin-right: 30px;
     }
+    #logo{
+        margin-left: 30px;
+    }
     #logo, #inscription
     {
         width: auto;
         padding-top: 1em;
-        margin-left: 30px;
         margin-right: 30px;
     }
     header img 
@@ -568,7 +556,7 @@ footer p
     #LienNav1:hover,#LienNav2:hover
     {
     color: #0065FC;
-    font-weight: bold;
+    font-weight: 800;
     border-bottom: 3px solid #0065FC; 
     border-top: none;
     }
@@ -577,16 +565,11 @@ footer p
         height: 30px;
         border-bottom: 2px solid #f2f2f2;
     }
-   
     form
     {
         justify-content: center;
         width: auto;
     }
-    /*form 
-    {
-        width: 100%;
-    }*/
     .Logo-search
     {
         display: inline-block;
@@ -639,8 +622,7 @@ footer p
     .carte-populaire
     {
         width: auto;
-        height: 100px;
-        flex-wrap: wrap;
+        height: 100px;  
     }
     #H-Ville
     {
@@ -663,6 +645,7 @@ footer p
     {
         flex-direction: column;
         padding-top: 4px;
+        
     }
     .photo-hebergement
     {
